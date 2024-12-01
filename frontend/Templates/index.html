@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - MyEducation</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+
+<body>
+    <div class="container"> <!-- Ajuste: Container ao redor de sidebar e content -->
+
+        <script src="../Scripts/menuLateral.js"></script>
+
+        <!-- Conteúdo principal -->
+        <div class="content">
+            <header>
+                <h1>Início</h1>
+                <div class="user-icon">👤</div>
+            </header>
+
+            <section class="courses-section">
+                <h2>Meus Cursos</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <a href="./Tela Curso.html">
+                            <img src="../Assets/Images/TelaPib.png" alt="Curso 1">
+                            <div class="course-title">Entenda o PIB de uma vez por todas</div>
+                        </a>
+                    </div>
+                    <div class="course-card">
+                        <img src="../Assets/Images/GraficoFigma.jpeg" alt="Curso 2">
+                        <div class="course-title">Introdução à Economia</div>
+                    </div>
+                    <div class="course-card">
+                        <img src="../Assets/Images/Planejamento.png" alt="Curso 3">
+                        <div class="course-title">Planejamento Financeiro</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="courses-section">
+                <h2>Lista de Cursos</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <img src="../Assets/Images/Historia da economia.jpg" alt="Curso 4">
+                        <div class="course-title">História da Economia</div>
+                    </div>
+                    <div class="course-card">
+                        <img src="../Assets/Images/EconomiaBrasileira.jpg" alt="Curso 5">
+                        <div class="course-title">Economia Brasileira</div>
+                    </div>
+                    <div class="course-card">
+                        <img src="../Assets/Images/MicroEconomia.jpg" alt="Curso 6">
+                        <div class="course-title">Microeconomia</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy;2024 WalletEducation | Termos e Privacidade
+    </footer>
+
+    <script>
+        // Função para alternar o menu hambúrguer
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('expanded');
+        }
+    </script>
+</body>
+
+</html>

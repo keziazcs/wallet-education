@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Menu Lateral</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Menu Lateral -->
+        <script src="../Scripts/menuLateral.js"></script>
+
+
+        <!-- Conteúdo Principal -->
+        <div class="content">
+            <header>
+                <h1>Página com Menu Lateral</h1>
+            </header>
+            <section class="courses-section">
+                <h2>Seção de Cursos</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <a href="./IniciandoJogo.html">
+                            <img src="../Assets/Images/Jogo.svg" alt="Tabuleiro da Riqueza">
+                            <div class="course-title">Tabuleiro da Riqueza</div>
+                        </a>
+                    </div>
+                    <div class="course-card">
+                        <img src="../Assets/Images/cooking.svg" alt="Cooking and Economy">
+                        <div class="course-title">Cooking and Economy</div>
+                    </div>
+                    <div class="course-card">
+                        <img src="../Assets/Images/compras.svg" alt="Jogo das Compras">
+                        <div class="course-title">Jogo das Compras</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 Empresa. Todos os direitos reservados.
+    </footer>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('expanded');
+        }
+    </script>
+</body>
+
+</html>
